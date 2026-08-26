@@ -306,7 +306,7 @@ The project provides a structured approach to:
 
 ## 👤 About Me
 
-**Surya Pal*
+*Surya Pal*
 
 Data Analyst passionate about transforming raw data into meaningful business insights using SQL, data analysis, and visualization.
 
