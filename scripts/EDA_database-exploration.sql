@@ -11,18 +11,17 @@ Table Used:
     - INFORMATION_SCHEMA.COLUMNS
 ===============================================================================
 */
-
-/* Database Exploration
--- Explore all the objects in the database*/
+--Database Exploration
+--Explore all the objects in the database
 SELECT 
     TABLE_CATALOG, 
     TABLE_SCHEMA, 
     TABLE_NAME, 
-    TABLE_TYPE  
+    TABLE_TYPE
 FROM INFORMATION_SCHEMA.TABLES;
-/*--Explore all the columns in the database*/
+--Explore all the columns in the database
 SELECT * FROM INFORMATION_SCHEMA.COLUMNS;
-/*Ecplore columns for a perticular table*/
+--Ecplore all the columns for a perticular table
 SELECT 
     COLUMN_NAME, 
     DATA_TYPE, 
@@ -35,7 +34,7 @@ SELECT
     COLUMN_NAME, 
     DATA_TYPE, 
     IS_NULLABLE, 
-    CHARACTER_MAXIMUM_LENGTH  
+    CHARACTER_MAXIMUM_LENGTH
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'dim_products';
 
@@ -43,6 +42,6 @@ SELECT
     COLUMN_NAME, 
     DATA_TYPE, 
     IS_NULLABLE, 
-    CHARACTER_MAXIMUM_LENGTH  
+    CHARACTER_MAXIMUM_LENGTH
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'fact_sales';
