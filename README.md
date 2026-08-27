@@ -31,16 +31,16 @@ The main objectives of this project are to:
 ```text
 SQL_EDA/
 │
-├── EDA_Database_Exploration.sql
-├──EDA_Date_Exploration.sql
-├── EDA_Dimension_Exploration.sql
-├── EDA_Measures_Exploration.sql
-├── EDA_Magnetude_analysis.sql
-├── EDA_Ranking_analysis.sql
-├──Advance_analysis.sql
-├──Data_Segmentation.sql
-├── Product_report.sql
-├── Customer_report.sql
+├── database_exploration.sql
+├── date_exploration.sql
+├── dimension_exploration.sql
+├── measures_exploration.sql
+├── magnetude_analysis.sql
+├── ranking_analysis.sql
+├── advance_analysis.sql
+├── data_segmentation.sql
+├── product_report.sql
+├── customer_report.sql
 └── README.md
 ```
 
